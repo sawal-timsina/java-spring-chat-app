@@ -1,0 +1,15 @@
+{
+  "schema": [
+    "schema.graphqls",
+    "*.graphqls"
+  ],
+  "documents": [
+    "schema.graphqls",
+    "*.graphqls"
+  ],
+  "extensions": {
+    "endpoints": {
+      "graphql": "http://localhost:8080/graphql"
+    }
+  }
+}
