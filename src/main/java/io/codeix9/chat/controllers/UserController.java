@@ -25,7 +25,7 @@ public class UserController {
     }
 
     @DgsMutation
-    public User createUser(@InputArgument UserInput user) {
+    public User createUser(@InputArgument User user) {
         return userService.save(user);
     }
 }
